@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nux-mg30-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server that lets an AI assistant control a NUX MG-30 guitar processor over USB MIDI"
 readme = "README.md"
 license = "MIT"

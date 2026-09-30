@@ -1,5 +1,7 @@
 # nux-mg30-mcp
 
+<!-- mcp-name: io.github.voronkovd/nux-mg30-mcp -->
+
 [![PyPI](https://img.shields.io/pypi/v/nux-mg30-mcp?label=PyPI&cacheSeconds=3600)](https://pypi.org/project/nux-mg30-mcp/) [![CI](https://github.com/voronkovd/nux-mg30-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/voronkovd/nux-mg30-mcp/actions/workflows/ci.yml)
 
 An [MCP](https://modelcontextprotocol.io) server that lets an AI assistant (Claude Desktop or any other MCP client) control a **NUX MG-30** guitar processor over USB MIDI.

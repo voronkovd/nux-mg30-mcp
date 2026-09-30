@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.voronkovd/nux-mg30-mcp",
+  "title": "NUX MG-30",
+  "description": "Control a NUX MG-30 guitar processor over USB MIDI: amps, effects, knobs and presets.",
+  "repository": {
+    "url": "https://github.com/voronkovd/nux-mg30-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "nux-mg30-mcp",
+      "version": "0.1.1",
+      "runtimeHint": "uvx",
+      "transport": {"type": "stdio"},
+      "environmentVariables": [
+        {"name": "MG30_PORT", "description": "Substring of the MIDI port name (default: auto-detect)", "isRequired": false},
+        {"name": "MG30_CHANNEL", "description": "MIDI channel set on the device, 1-16 (default 1)", "isRequired": false},
+        {"name": "MG30_DATA_DIR", "description": "Where backups, patch files and logs are stored (default ~/.nux-mg30-mcp)", "isRequired": false}
+      ]
+    }
+  ]
+}
