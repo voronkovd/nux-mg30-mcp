@@ -1,0 +1,79 @@
+{
+  "_note": "Death 'The Sound of Perseverance' style rhythm (Marshall-type high gain; the original rig was a Marshall Valvestate).",
+  "blocks": {
+    "wah": {
+      "model": "Cry BB",
+      "on": false
+    },
+    "comp": {
+      "model": "Studio Comp",
+      "on": false
+    },
+    "ng": {
+      "model": "Noise Gate",
+      "knobs": {
+        "sens": 55,
+        "decay": 30
+      }
+    },
+    "efx": {
+      "model": "T Scream",
+      "knobs": {
+        "drive": 10,
+        "tone": 55,
+        "level": 80
+      }
+    },
+    "amp": {
+      "model": "Brit 800",
+      "knobs": {
+        "gain": 75,
+        "master": 50,
+        "bass": 55,
+        "middle": 50,
+        "treble": 62,
+        "presence": 60,
+        "bias": 50,
+        "level": 50
+      }
+    },
+    "ir": {
+      "model": "1960",
+      "knobs": {
+        "mic": 1,
+        "position": 1,
+        "level": 50,
+        "lowcut": 25,
+        "highcut": 45
+      }
+    },
+    "eq": {
+      "model": "6-Band EQ",
+      "knobs": {
+        "100": 52,
+        "220": 50,
+        "500": 46,
+        "1.2k": 50,
+        "2.6k": 55,
+        "6.4k": 45,
+        "level": 50
+      }
+    },
+    "mod": {
+      "model": "CE-2",
+      "on": false
+    },
+    "dly": {
+      "model": "Digital Delay",
+      "on": false
+    },
+    "rvb": {
+      "model": "Room",
+      "knobs": {
+        "decay": 30,
+        "tone": 50,
+        "level": 15
+      }
+    }
+  }
+}

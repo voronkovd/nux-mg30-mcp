@@ -1,0 +1,79 @@
+{
+  "_note": "In Flames 'The Jester Race' style rhythm: DS-1 type distortion into a Marshall-type amp on crunch gain (forum reports mention a Valvestate + DS-1/HM-2; unconfirmed).",
+  "blocks": {
+    "wah": {
+      "model": "Cry BB",
+      "on": false
+    },
+    "comp": {
+      "model": "Studio Comp",
+      "on": false
+    },
+    "mod": {
+      "model": "CE-2",
+      "on": false
+    },
+    "ng": {
+      "model": "Noise Gate",
+      "knobs": {
+        "sens": 50,
+        "decay": 30
+      }
+    },
+    "efx": {
+      "model": "Dist One",
+      "knobs": {
+        "level": 60,
+        "tone": 55,
+        "drive": 35
+      }
+    },
+    "amp": {
+      "model": "Brit 800",
+      "knobs": {
+        "gain": 50,
+        "master": 50,
+        "bass": 45,
+        "middle": 62,
+        "treble": 60,
+        "presence": 55,
+        "bias": 50,
+        "level": 50
+      }
+    },
+    "ir": {
+      "model": "1960",
+      "knobs": {
+        "mic": 1,
+        "position": 1,
+        "level": 50,
+        "lowcut": 25,
+        "highcut": 45
+      }
+    },
+    "eq": {
+      "model": "6-Band EQ",
+      "knobs": {
+        "100": 45,
+        "220": 48,
+        "500": 54,
+        "1.2k": 56,
+        "2.6k": 55,
+        "6.4k": 45,
+        "level": 50
+      }
+    },
+    "dly": {
+      "model": "Digital Delay",
+      "on": false
+    },
+    "rvb": {
+      "model": "Room",
+      "knobs": {
+        "decay": 30,
+        "tone": 50,
+        "level": 15
+      }
+    }
+  }
+}

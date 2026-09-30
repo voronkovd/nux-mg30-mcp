@@ -1,0 +1,85 @@
+{
+  "_note": "Ensiferum style melodic lead with dotted-eighth delay.",
+  "blocks": {
+    "wah": {
+      "model": "Cry BB",
+      "on": false
+    },
+    "comp": {
+      "model": "Studio Comp",
+      "on": false
+    },
+    "mod": {
+      "model": "CE-2",
+      "on": false
+    },
+    "ng": {
+      "model": "Noise Gate",
+      "knobs": {
+        "sens": 45,
+        "decay": 40
+      }
+    },
+    "efx": {
+      "model": "T Scream",
+      "knobs": {
+        "drive": 15,
+        "tone": 60,
+        "level": 85
+      }
+    },
+    "amp": {
+      "model": "Brit 2000",
+      "knobs": {
+        "gain": 70,
+        "master": 50,
+        "bass": 50,
+        "middle": 65,
+        "treble": 58,
+        "presence": 55,
+        "bias": 50,
+        "level": 50
+      }
+    },
+    "ir": {
+      "model": "GB412",
+      "knobs": {
+        "mic": 1,
+        "position": 1,
+        "level": 50,
+        "lowcut": 25,
+        "highcut": 40
+      }
+    },
+    "eq": {
+      "model": "6-Band EQ",
+      "knobs": {
+        "100": 48,
+        "220": 49,
+        "500": 52,
+        "1.2k": 60,
+        "2.6k": 55,
+        "6.4k": 40,
+        "level": 50
+      }
+    },
+    "dly": {
+      "model": "Digital Delay",
+      "knobs": {
+        "e.level": 28,
+        "feedback": 30,
+        "d.time": 40,
+        "subd": 5
+      }
+    },
+    "rvb": {
+      "model": "Hall",
+      "knobs": {
+        "decay": 45,
+        "predelay": 30,
+        "liveliness": 50,
+        "level": 25
+      }
+    }
+  }
+}

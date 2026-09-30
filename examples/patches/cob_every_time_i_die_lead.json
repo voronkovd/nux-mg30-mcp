@@ -1,0 +1,85 @@
+{
+  "_note": "Children of Bodom 'Every Time I Die' style lead (5150-type amp + TS boost).",
+  "blocks": {
+    "wah": {
+      "model": "Cry BB",
+      "on": false
+    },
+    "comp": {
+      "model": "Studio Comp",
+      "on": false
+    },
+    "mod": {
+      "model": "CE-1",
+      "on": false
+    },
+    "ng": {
+      "model": "Noise Gate",
+      "knobs": {
+        "sens": 50,
+        "decay": 40
+      }
+    },
+    "efx": {
+      "model": "T Scream",
+      "knobs": {
+        "drive": 15,
+        "tone": 55,
+        "level": 85
+      }
+    },
+    "amp": {
+      "model": "Vivo",
+      "knobs": {
+        "gain": 68,
+        "master": 50,
+        "bass": 42,
+        "middle": 68,
+        "treble": 58,
+        "presence": 55,
+        "bias": 50,
+        "level": 50
+      }
+    },
+    "ir": {
+      "model": "V412",
+      "knobs": {
+        "mic": 1,
+        "position": 1,
+        "level": 50,
+        "lowcut": 30,
+        "highcut": 35
+      }
+    },
+    "eq": {
+      "model": "6-Band EQ",
+      "knobs": {
+        "100": 44,
+        "220": 48,
+        "500": 52,
+        "1.2k": 63,
+        "2.6k": 55,
+        "6.4k": 38,
+        "level": 50
+      }
+    },
+    "dly": {
+      "model": "Digital Delay",
+      "knobs": {
+        "e.level": 30,
+        "feedback": 32,
+        "d.time": 40,
+        "subd": 5
+      }
+    },
+    "rvb": {
+      "model": "Hall",
+      "knobs": {
+        "decay": 45,
+        "predelay": 30,
+        "liveliness": 50,
+        "level": 26
+      }
+    }
+  }
+}

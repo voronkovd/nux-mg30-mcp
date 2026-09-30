@@ -1,0 +1,80 @@
+{
+  "_note": "Ensiferum (2001 album) style rhythm, built by ear (no reliable gear info).",
+  "blocks": {
+    "wah": {
+      "model": "Cry BB",
+      "on": false
+    },
+    "comp": {
+      "model": "Studio Comp",
+      "on": false
+    },
+    "mod": {
+      "model": "CE-2",
+      "on": false
+    },
+    "ng": {
+      "model": "Noise Gate",
+      "knobs": {
+        "sens": 50,
+        "decay": 30
+      }
+    },
+    "efx": {
+      "model": "T Scream",
+      "knobs": {
+        "drive": 0,
+        "tone": 60,
+        "level": 75
+      }
+    },
+    "amp": {
+      "model": "Brit 2000",
+      "knobs": {
+        "gain": 62,
+        "master": 50,
+        "bass": 50,
+        "middle": 60,
+        "treble": 60,
+        "presence": 55,
+        "bias": 50,
+        "level": 50
+      }
+    },
+    "ir": {
+      "model": "GB412",
+      "knobs": {
+        "mic": 1,
+        "position": 1,
+        "level": 50,
+        "lowcut": 25,
+        "highcut": 40
+      }
+    },
+    "eq": {
+      "model": "6-Band EQ",
+      "knobs": {
+        "100": 48,
+        "220": 49,
+        "500": 52,
+        "1.2k": 56,
+        "2.6k": 55,
+        "6.4k": 44,
+        "level": 50
+      }
+    },
+    "dly": {
+      "model": "Digital Delay",
+      "on": false
+    },
+    "rvb": {
+      "model": "Hall",
+      "knobs": {
+        "decay": 30,
+        "predelay": 30,
+        "liveliness": 50,
+        "level": 15
+      }
+    }
+  }
+}

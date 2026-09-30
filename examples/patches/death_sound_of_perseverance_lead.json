@@ -1,0 +1,82 @@
+{
+  "_note": "Death style lead: more gain and mids, a touch of chorus.",
+  "blocks": {
+    "wah": {
+      "model": "Cry BB",
+      "on": false
+    },
+    "comp": {
+      "model": "Studio Comp",
+      "on": false
+    },
+    "ng": {
+      "model": "Noise Gate",
+      "knobs": {
+        "sens": 50,
+        "decay": 40
+      }
+    },
+    "efx": {
+      "model": "T Scream",
+      "knobs": {
+        "drive": 20,
+        "tone": 55,
+        "level": 85
+      }
+    },
+    "amp": {
+      "model": "Brit 800",
+      "knobs": {
+        "gain": 78,
+        "master": 50,
+        "bass": 55,
+        "middle": 58,
+        "treble": 60,
+        "presence": 60,
+        "bias": 50,
+        "level": 50
+      }
+    },
+    "ir": {
+      "model": "1960",
+      "knobs": {
+        "mic": 1,
+        "position": 1,
+        "level": 50,
+        "lowcut": 25,
+        "highcut": 45
+      }
+    },
+    "eq": {
+      "model": "6-Band EQ",
+      "knobs": {
+        "100": 52,
+        "220": 50,
+        "500": 50,
+        "1.2k": 56,
+        "2.6k": 55,
+        "6.4k": 45,
+        "level": 50
+      }
+    },
+    "mod": {
+      "model": "CE-2",
+      "knobs": {
+        "rate": 35,
+        "depth": 30
+      }
+    },
+    "dly": {
+      "model": "Digital Delay",
+      "on": false
+    },
+    "rvb": {
+      "model": "Room",
+      "knobs": {
+        "decay": 40,
+        "tone": 50,
+        "level": 20
+      }
+    }
+  }
+}

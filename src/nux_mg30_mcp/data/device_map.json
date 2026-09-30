@@ -1,0 +1,798 @@
+{
+  "_about": "NUX MG-30 MIDI map (firmware 5.0.2). CC values are raw 0..100. A block switch CC value is the model number (1-based); add 64 to turn the block off. See docs/PROTOCOL.md.",
+  "channel": 1,
+  "blocks": {
+    "wah": {
+      "switch_cc": 0,
+      "knob_ccs": [
+        11,
+        12,
+        13
+      ]
+    },
+    "comp": {
+      "switch_cc": 1,
+      "knob_ccs": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "efx": {
+      "switch_cc": 2,
+      "knob_ccs": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "amp": {
+      "switch_cc": 3,
+      "knob_ccs": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    "eq": {
+      "switch_cc": 4,
+      "knob_ccs": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    "ng": {
+      "switch_cc": 5,
+      "knob_ccs": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    "mod": {
+      "switch_cc": 6,
+      "knob_ccs": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    "dly": {
+      "switch_cc": 7,
+      "knob_ccs": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    "rvb": {
+      "switch_cc": 8,
+      "knob_ccs": [
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "ir": {
+      "switch_cc": 9,
+      "knob_ccs": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    "sendreturn": {
+      "switch_cc": 10,
+      "knob_ccs": [
+        72,
+        73
+      ]
+    }
+  },
+  "models": {
+    "amp": {
+      "Jazz Clean": 1,
+      "Deluxe Rvb": 2,
+      "Bass Mate": 3,
+      "Tweedy": 4,
+      "Twin Rvb": 5,
+      "Hiwire": 6,
+      "Cali Crunch": 7,
+      "Class A15": 8,
+      "Class A30": 9,
+      "Plexi 100": 10,
+      "Plexi 45": 11,
+      "Brit 800": 12,
+      "1987 X 50": 13,
+      "Slo 100": 14,
+      "Fireman HBE": 15,
+      "Dual Rect": 16,
+      "Die VH4": 17,
+      "Vibro King": 18,
+      "Budda": 19,
+      "Mr Z 38": 20,
+      "Super Rvb": 21,
+      "Brit Blues": 22,
+      "Match": 23,
+      "Brit 2000": 24,
+      "Uber": 25,
+      "Agl": 26,
+      "Bassguy": 27,
+      "Mld": 28,
+      "Optima Air": 29,
+      "Stageman": 30,
+      "Dglass": 31,
+      "Starlift": 32,
+      "Vivo": 33,
+      "F Princeton": 34,
+      "L Star": 35
+    },
+    "comp": {
+      "Rose Comp": 1,
+      "K Comp": 2,
+      "Studio Comp": 3
+    },
+    "ng": {
+      "Noise Gate": 1
+    },
+    "efx": {
+      "Distortion+": 1,
+      "RC Boost": 2,
+      "AC Boost": 3,
+      "Dist One": 4,
+      "T Scream": 5,
+      "Blues Drv": 6,
+      "Morning Drv": 7,
+      "Eat Dist": 8,
+      "Red Dirt": 9,
+      "Crunch": 10,
+      "Muff Fuzz": 11,
+      "Katana": 12,
+      "ST Singer": 13,
+      "Red Fuzz": 14,
+      "Touch Wah": 15
+    },
+    "ir": {
+      "JZ120": 1,
+      "DR112": 2,
+      "BS410": 3,
+      "A212": 4,
+      "TR212": 5,
+      "1960": 6,
+      "GB412": 7,
+      "V412": 8,
+      "Swamp Thang": 21,
+      "Cannabis Rex 12": 22,
+      "Legend 1058": 23,
+      "CV-75": 24,
+      "AGL DB810": 9,
+      "AMP SV810": 10,
+      "AMP SV410": 11,
+      "AMP SV212": 12,
+      "MKB 410": 13,
+      "TRC 410": 14,
+      "EDEN 410": 15,
+      "Bassguy 410": 16,
+      "M-D45": 17,
+      "G-HBird": 18,
+      "G-J15": 19,
+      "Third-party": 20
+    },
+    "eq": {
+      "6-Band EQ": 1,
+      "Align EQ": 2,
+      "10-Band EQ": 3,
+      "Para EQ": 4
+    },
+    "mod": {
+      "CE-1": 1,
+      "CE-2": 2,
+      "St Chorus": 3,
+      "Vibrator": 4,
+      "Detune": 5,
+      "Flanger": 6,
+      "Phase 90": 7,
+      "Phase 100": 8,
+      "SCF": 9,
+      "U-Vibe": 10,
+      "Tremolo": 11,
+      "Rotary": 12,
+      "Harmonist": 13,
+      "SCH-1": 14
+    },
+    "dly": {
+      "Analog Delay": 1,
+      "Digital Delay": 2,
+      "Modulation": 3,
+      "Tape Echo": 4,
+      "Reverse": 5,
+      "Pan Delay": 6,
+      "Duotime": 7,
+      "Phi Delay": 8
+    },
+    "rvb": {
+      "Room": 1,
+      "Hall": 2,
+      "Plate": 3,
+      "Spring": 4,
+      "Shimmer": 5,
+      "Damp": 6
+    },
+    "wah": {
+      "Clyde": 1,
+      "Cry BB": 2,
+      "V847": 3,
+      "Horse Wah": 4,
+      "Octave-Shift": 5
+    }
+  },
+  "knob_labels": {
+    "comp": {
+      "Rose Comp": [
+        "sustain",
+        "level"
+      ],
+      "K Comp": [
+        "sustain",
+        "level",
+        "clipping"
+      ],
+      "Studio Comp": [
+        "threshold",
+        "ratio",
+        "gain",
+        "release"
+      ]
+    },
+    "amp": {
+      "_default": [
+        "gain",
+        "master",
+        "bass",
+        "middle",
+        "treble",
+        "presence",
+        "bias",
+        "level"
+      ]
+    },
+    "ng": {
+      "_default": [
+        "sens",
+        "decay"
+      ]
+    },
+    "efx": {
+      "Distortion+": [
+        "output",
+        "sensitivity"
+      ],
+      "RC Boost": [
+        "gain",
+        "volume",
+        "bass",
+        "treble"
+      ],
+      "AC Boost": [
+        "gain",
+        "volume",
+        "bass",
+        "treble"
+      ],
+      "Dist One": [
+        "level",
+        "tone",
+        "drive"
+      ],
+      "T Scream": [
+        "drive",
+        "tone",
+        "level"
+      ],
+      "Blues Drv": [
+        "level",
+        "tone",
+        "gain"
+      ],
+      "Morning Drv": [
+        "volume",
+        "drive",
+        "tone"
+      ],
+      "Eat Dist": [
+        "distortion",
+        "filter",
+        "volume"
+      ],
+      "Red Dirt": [
+        "drive",
+        "tone",
+        "level"
+      ],
+      "Crunch": [
+        "volume",
+        "tone",
+        "gain"
+      ],
+      "Muff Fuzz": [
+        "volume",
+        "tone",
+        "sustain"
+      ],
+      "Katana": [
+        "boost",
+        "volume"
+      ],
+      "ST Singer": [
+        "volume",
+        "gain",
+        "filter"
+      ],
+      "Red Fuzz": [
+        "gain",
+        "tone",
+        "output"
+      ],
+      "Touch Wah": [
+        "mode",
+        "decay",
+        "sens",
+        "updown",
+        "level"
+      ]
+    },
+    "ir": {
+      "JZ120": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "DR112": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "BS410": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "A212": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "TR212": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "1960": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "GB412": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "V412": [
+        "mic",
+        "position",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "Swamp Thang": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "Cannabis Rex 12": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "Legend 1058": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "CV-75": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "AGL DB810": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "AMP SV810": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "AMP SV410": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "AMP SV212": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "MKB 410": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "TRC 410": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "EDEN 410": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "Bassguy 410": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "M-D45": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "G-HBird": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "G-J15": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ],
+      "Third-party": [
+        "-",
+        "-",
+        "level",
+        "lowcut",
+        "highcut"
+      ]
+    },
+    "eq": {
+      "6-Band EQ": [
+        "100",
+        "220",
+        "500",
+        "1.2k",
+        "2.6k",
+        "6.4k",
+        "level"
+      ],
+      "Align EQ": [
+        "hpf",
+        "110",
+        "340",
+        "660",
+        "1300",
+        "2600",
+        "5000",
+        "volume"
+      ],
+      "10-Band EQ": [
+        "vol",
+        "31.25",
+        "62.5",
+        "125",
+        "250",
+        "500",
+        "1k",
+        "2k",
+        "4k",
+        "8k",
+        "16k",
+        "gain"
+      ],
+      "Para EQ": [
+        "freq1",
+        "gain1",
+        "q1",
+        "freq2",
+        "gain2",
+        "q2",
+        "freq3",
+        "gain3",
+        "q3"
+      ]
+    },
+    "mod": {
+      "CE-2": [
+        "rate",
+        "depth",
+        "subd"
+      ],
+      "St Chorus": [
+        "intensity",
+        "width",
+        "rate",
+        "subd"
+      ],
+      "Vibrator": [
+        "rate",
+        "depth",
+        "subd"
+      ],
+      "Detune": [
+        "shift-l",
+        "mix",
+        "shift-r"
+      ],
+      "Flanger": [
+        "level",
+        "rate",
+        "width",
+        "feedback",
+        "subd"
+      ],
+      "Phase 90": [
+        "speed",
+        "subd"
+      ],
+      "Phase 100": [
+        "intensity",
+        "speed",
+        "subd"
+      ],
+      "SCF": [
+        "speed",
+        "width",
+        "chfl",
+        "intensity",
+        "subd"
+      ],
+      "U-Vibe": [
+        "speed",
+        "volume",
+        "intensity",
+        "chvib",
+        "subd"
+      ],
+      "Tremolo": [
+        "rate",
+        "depth",
+        "subd"
+      ],
+      "Rotary": [
+        "balance",
+        "speed",
+        "subd"
+      ],
+      "Harmonist": [
+        "key",
+        "minor",
+        "harmo",
+        "blend"
+      ],
+      "SCH-1": [
+        "rate",
+        "depth",
+        "tone",
+        "subd"
+      ],
+      "CE-1": [
+        "intensity",
+        "depth",
+        "rate",
+        "subd"
+      ]
+    },
+    "dly": {
+      "Analog Delay": [
+        "rate",
+        "echo",
+        "intensity",
+        "subd"
+      ],
+      "Digital Delay": [
+        "e.level",
+        "feedback",
+        "d.time",
+        "subd"
+      ],
+      "Modulation": [
+        "time",
+        "level",
+        "mod",
+        "repeat",
+        "subd"
+      ],
+      "Tape Echo": [
+        "time",
+        "level",
+        "repeat",
+        "subd"
+      ],
+      "Reverse": [
+        "time",
+        "mix",
+        "feedback",
+        "subd"
+      ],
+      "Pan Delay": [
+        "time",
+        "repeat",
+        "d.level",
+        "subd"
+      ],
+      "Duotime": [
+        "level",
+        "time1",
+        "subd1",
+        "rep1",
+        "time2",
+        "subd2",
+        "rep2",
+        "para"
+      ],
+      "Phi Delay": [
+        "mix",
+        "repeats",
+        "time",
+        "subd"
+      ]
+    },
+    "rvb": {
+      "Room": [
+        "decay",
+        "tone",
+        "level"
+      ],
+      "Hall": [
+        "decay",
+        "predelay",
+        "liveliness",
+        "level"
+      ],
+      "Plate": [
+        "decay",
+        "level"
+      ],
+      "Spring": [
+        "decay",
+        "level"
+      ],
+      "Shimmer": [
+        "mix",
+        "decay",
+        "shim"
+      ],
+      "Damp": [
+        "mix",
+        "depth"
+      ]
+    },
+    "wah": {
+      "Clyde": [
+        "pedal"
+      ],
+      "Cry BB": [
+        "pedal"
+      ],
+      "V847": [
+        "pedal"
+      ],
+      "Horse Wah": [
+        "pedal",
+        "contour",
+        "range"
+      ],
+      "Octave-Shift": [
+        "pedal",
+        "updown"
+      ]
+    }
+  },
+  "value_notes": {
+    "subd": "note subdivision selector 0..6 (5 = dotted 1/8, 6 = 1/4)",
+    "ir.mic": "0 Dyn421, 1 S57, 2 U87, 3 R122, 4 R121, 5 C414, 6 C3000, 7 B52 (only JZ120..V412)",
+    "ir.position": "0 center, 1 middle, 2 edge (only JZ120..V412)",
+    "ir.level": "0..100 = -12..+12 dB (50 = 0 dB)",
+    "ir.lowcut": "0..100 = 20 Hz..1 kHz",
+    "ir.highcut": "0..100 = 5 kHz..20 kHz",
+    "eq.6-Band EQ": "bands 0..100 = -15..+15 dB (50 = 0 dB)",
+    "eq.10-Band EQ": "bands 0..100 = -12..+12 dB (50 = 0 dB)",
+    "eq.Align EQ.hpf": "0 = 50 Hz, 1 = 80 Hz, 2 = 160 Hz",
+    "mod.Harmonist": "key 0..11 (0 = C), minor 0/1, harmo 0..9, blend 0..100",
+    "wah.pedal": "CC11 is assumed to be the pedal position (unverified)"
+  },
+  "unverified": [
+    "wah pedal (CC11)",
+    "send/return knobs (CC72-73)",
+    "patch volume",
+    "CC79 (sent by some presets)"
+  ]
+}
