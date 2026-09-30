@@ -1,5 +1,7 @@
 # nux-mg30-mcp
 
+[![PyPI](https://img.shields.io/pypi/v/nux-mg30-mcp)](https://pypi.org/project/nux-mg30-mcp/) [![CI](https://github.com/voronkovd/nux-mg30-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/voronkovd/nux-mg30-mcp/actions/workflows/ci.yml)
+
 An [MCP](https://modelcontextprotocol.io) server that lets an AI assistant (Claude Desktop or any other MCP client) control a **NUX MG-30** guitar processor over USB MIDI.
 
 Describe the sound you want in plain words ("tight Children of Bodom rhythm tone", "less fizz, more mids on the lead"), and the assistant picks models, turns knobs, saves and names presets on the unit.
@@ -23,6 +25,29 @@ The server has to run on the computer the MG-30 is plugged into, because it need
 
 ## Installation
 
+The easiest way is [uv](https://docs.astral.sh/uv/): `uvx` downloads and runs the server, no manual setup needed.
+
+### Claude Desktop
+
+Open **Settings → Developer → Edit Config** and add:
+
+```json
+{
+  "mcpServers": {
+    "nux-mg30": {
+      "command": "uvx",
+      "args": ["nux-mg30-mcp"]
+    }
+  }
+}
+```
+
+Restart Claude Desktop completely. The tools show up under the `nux-mg30` server. If Claude cannot find `uvx`, use its absolute path (`which uvx`, typically `~/.local/bin/uvx`).
+
+Alternatively, install it with `pipx install nux-mg30-mcp` or `pip install nux-mg30-mcp` and use `"command": "nux-mg30-mcp"`.
+
+### From source
+
 ```bash
 git clone https://github.com/voronkovd/nux-mg30-mcp.git
 cd nux-mg30-mcp
@@ -30,23 +55,9 @@ python3 -m venv .venv
 .venv/bin/pip install -e .
 ```
 
-Optional check without any AI client: lower your volume, then run `.venv/bin/python scripts/midi_check.py`. The script mutes the AMP block for 1.5 seconds and restores it.
+Then use `"command": "/absolute/path/to/nux-mg30-mcp/.venv/bin/nux-mg30-mcp"` in the client config.
 
-### Claude Desktop
-
-Open **Settings → Developer → Edit Config** and add the server. Use the absolute path to the executable inside your virtualenv:
-
-```json
-{
-  "mcpServers": {
-    "nux-mg30": {
-      "command": "/absolute/path/to/nux-mg30-mcp/.venv/bin/nux-mg30-mcp"
-    }
-  }
-}
-```
-
-Restart Claude Desktop completely. The tools show up under the `nux-mg30` server.
+Optional check without any AI client: lower your volume, then run `python scripts/midi_check.py`. The script mutes the AMP block for 1.5 seconds and restores it.
 
 ### Configuration
 
